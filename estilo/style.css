@@ -35,21 +35,31 @@ main p {
     font-family: var(--fonte1);
 }
 
-#botao {
-    background-color: #ff8fab;
-    color: white;
-    font-weight: bold;
-    text-align: center;
-    width: 7%;
-    padding: 7px;
-    border-radius: 30px;
-    
+img {
+    padding: 5px 10px;
+}
+
+label {
+    padding: 10px 0px;
 }
 
 input {
     width: 27%;
     border: 0;
-    padding: 7px;
-    border-bottom: 1px solid #ffcad4;
+    padding: 7.5px;;
+    border-bottom: 1px solid var(--cor3)
   }
 
+
+#botao {
+    background-color: var(--cor4);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    width: 11%;
+    padding: 7px;
+    border-radius: 30px;
+    
+}
+
+foo
