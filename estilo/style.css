@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Outfit:wght@300&display=swap');
+
+:root {
+    --cor1: #FFE5EC;
+    --cor2: #ffcad4;
+    --cor3: #f4acb7;
+    --cor4: #ff8fab;
+
+    --fonte1: 'Nunito', sans-serif;
+    --fonte2: 'Outfit', sans-serif;
+}
+
+body {
+    background-color: var(--cor1);
+}
+
+main {
+    background-color: white;
+    font-family: var(--fonte2);
+    background-size: 100% 100%;
+    height: 500px;
+    width: 800px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 25px;
+    border-radius: 13px;
+    box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.205);
+}
+
+main p {
+    font-family: var(--fonte1);
+}
+
+#botao {
+    background-color: #ff8fab;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    width: 7%;
+    padding: 7px;
+    border-radius: 30px;
+    
+}
+
+input {
+    width: 27%;
+    border: 0;
+    padding: 7px;
+    border-bottom: 1px solid #ffcad4;
+  }
+
