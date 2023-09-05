@@ -12,56 +12,113 @@
     --fonte2: 'Outfit', sans-serif;
 }
 
+
 body {
-    background-color: var(--cor1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 96vh;
+    background-color: #f7ede2;
+
 }
 
 main {
+    display: flex;
+    flex-direction: row;
     background-color: white;
     font-family: var(--fonte2);
     background-size: 100% 100%;
     height: 500px;
     width: 800px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    padding: 10px 25px;
+    margin: auto;
     border-radius: 13px;
     box-shadow: 0px 2px 16px 0px rgba(0, 0, 0, 0.205);
 }
 
-main p {
+h1 {
     font-family: var(--fonte1);
+    font-size: 37px;
+}
+
+div:nth-child(1) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 50%;
+    background-image: linear-gradient(to left, var(--cor3), var(--cor4));
+    border-radius: 13px 0px 0px 13px;
+}
+
+div:nth-child(2) {
+    margin: auto;
+    padding-top: 38px;
+    text-align: center;
+    height: 100%;
+    width: 50%;
+    font-family: var(--fonte2);
+}
+
+
+.welcome {
+    font-size: 47px;
+    color: white;
+    text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.26);
 }
 
 img {
-    padding: 5px 10px;
+    padding: 0px 10px;
 }
 
-label {
+label[for="email"] {
     padding: 10px 0px;
+    margin-right: 122px;
+}
+
+label[for="password"] {
+    padding: 10px 0px;
+    margin-right: 92px;
+
 }
 
 input {
-    width: 27%;
+    width: 37%;
     border: 0;
-    padding: 7.5px;;
-    border-bottom: 1px solid var(--cor3)
-  }
+    padding: 7.5px;
+    border-bottom: 1px solid var(--cor3);
+}
 
 
 #botao {
     background-color: var(--cor4);
     color: white;
-    font-weight: bold;
+    font-family: var(--fonte1);
+    font-size: 1.1em;
+    font-weight: bolder;
     text-align: center;
-    width: 11%;
+    margin: auto;
+    width: 20%;
     padding: 7px;
     border-radius: 30px;
-    
+}
+
+#botao:hover {
+    opacity: 80%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 footer {
-    color: #2c2c2c44;
+    font-family: var(--fonte2);
+    color: #2c2c2ca1;
+    text-align: center;
+    height: 12px;
+    width: 100%;
 }
