@@ -3,10 +3,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&family=Outfit:wght@300&display=swap');
 
 :root {
-    --cor1: #FFE5EC;
-    --cor2: #ffcad4;
-    --cor3: #f4acb7;
-    --cor4: #ff8fab;
+    --cor1: #f7ede2;
+    --cor2: #f4acb7;
+    --cor3: #ff8fab;
 
     --fonte1: 'Nunito', sans-serif;
     --fonte2: 'Outfit', sans-serif;
@@ -18,7 +17,7 @@ body {
     flex-direction: column;
     justify-content: center;
     height: 96vh;
-    background-color: #f7ede2;
+    background-color: var(--cor1);
 
 }
 
@@ -46,7 +45,7 @@ div:nth-child(1) {
     justify-content: center;
     height: 100%;
     width: 50%;
-    background-image: linear-gradient(to left, var(--cor3), var(--cor4));
+    background-image: linear-gradient(to left, var(--cor2), var(--cor3));
     border-radius: 13px 0px 0px 13px;
 }
 
@@ -85,12 +84,12 @@ input {
     width: 37%;
     border: 0;
     padding: 7.5px;
-    border-bottom: 1px solid var(--cor3);
+    border-bottom: 1px solid var(--cor2);
 }
 
 
 #botao {
-    background-color: var(--cor4);
+    background-color: var(--cor3);
     color: white;
     font-family: var(--fonte1);
     font-size: 1.1em;
@@ -113,6 +112,7 @@ a {
 
 a:hover {
     text-decoration: underline;
+    color: var(--cor3);
 }
 
 footer {
